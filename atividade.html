@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Pessoas</title>
+    <link rel="stylesheet" href="atividade.css">
+</head>
+
+<body>
+    <form action="" method="">
+        <fieldset>
+            <legend>Cadastro de pessoas:</legend>
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome">
+            </div>
+
+            <div>
+                <label for="sobrenome">Sobrenome:</label>
+                <input type="text" id="sobrenome" name="sobrenome">
+            </div>
+
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email">
+            </div>
+
+            <div>
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha">
+            </div>
+
+            <div>
+                <label for="data_nascimento">Data de Nascimento:</label>
+                <input type="date" id="data_nascimento" name="data_nascimento">
+            </div>
+
+            <div>
+                <label>Comida Favorita:</label>
+                <ul>
+                    <li>
+                        <input class="checkbox" type="checkbox" id="hamburguer" name="comida_favorita" value="hamburguer">
+                        <label for="hamburguer">Hambúrguer</label>
+                    </li>
+                    <li>
+                        <input class="checkbox" type="checkbox" id="pizza" name="comida_favorita" value="pizza">
+                        <label for="pizza">Pizza</label>
+                    </li>
+                    <li>
+                        <input class="checkbox" type="checkbox" id="sushi" name="comida_favorita" value="sushi">
+                        <label for="sushi">Sushi</label>
+                    </li>
+                    <li>
+                        <input class="checkbox" type="checkbox" id="cachorro_quente" name="comida_favorita" value="cachorro_quente">
+                        <label for="cachorro_quente">Cachorro Quente</label>
+                    </li>
+                    <li>
+                        <input class="checkbox" type="checkbox" id="xis" name="comida_favorita" value="xis">
+                        <label for="xis">Xis</label>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <label for="caracteristicas">Descreva suas características:</label>
+                <textarea id="caracteristicas" name="caracteristicas" rows="4" cols="50"></textarea>
+            </div>
+
+            <div>
+                <label>Aceita os termos e cadastro:</label>
+                <div>
+                    <input type="radio" id="sim" name="aceita_termos" value="sim">
+                    <label for="sim">Sim</label>
+                </div>
+                <div>
+                    <input type="radio" id="nao" name="aceita_termos" value="não">
+                    <label for="nao">Não</label>
+                </div>
+            </div>
+
+            <div>
+                <input type="submit" value="Cadastrar">
+            </div>
+    </form>
+</body>
+
+</html>
